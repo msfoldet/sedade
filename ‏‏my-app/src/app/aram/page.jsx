@@ -39,7 +39,7 @@ const Page = () => {
 if( form.data.نوع_السداد == "اختر"||form.data.رقم_البطاقة_الشخصية == "" ||  form.data.قيمة_السداد == "" ||form.data.رقم_المفوتر == "") {
       alert('من فضلك قم بملى الحقول')
     }else{
-       router.push(`/aram/banks?names=${form.data.رقم_المفوتر}`)
+       router.push(`/aram/banks/pay?names=${form.data.رقم_المفوتر}`)
     }
   }
 
